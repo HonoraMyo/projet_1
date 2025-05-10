@@ -33,10 +33,6 @@ h3[class=parag_h]{
     color: rgb(33, 47, 113);
 }
 
-ol, li{
-    line-height: 30px;
-    display: inline-block;
-}
 
 td, th{
     line-height: 30px;

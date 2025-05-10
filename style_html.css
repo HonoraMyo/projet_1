@@ -1,0 +1,43 @@
+h1, h5 {
+    color: rgb(255, 255, 255);
+    border: 5px solid rgb(71, 150, 150);
+    background-color: rgb(116, 187, 187);
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 5px 10px rgb(194, 76, 63);
+    position: fixed;
+}
+
+.h_survol:hover{
+    background: linear-gradient(0deg,
+                                rgb(194, 76, 63)10%,
+                                rgb(134, 173, 60)70%);
+}
+
+.parag, .parag_h{
+    display: inline-block;
+    border: 2px solid rgb(194, 76, 63);
+    border-radius: 25px 0 20px 0;
+    padding: 10px;
+    margin: 100px 10px 0 10px;
+    text-align: center;
+    background: linear-gradient(0deg,
+                                rgb(194, 76, 63)10%,
+                                rgb(134, 173, 60)70%);
+
+}
+
+h3[class=parag_h]{
+    color: rgb(33, 47, 113);
+}
+
+ol, li{
+    line-height: 30px;
+    display: inline-block;
+}
+
+td, th{
+    line-height: 30px;
+}
